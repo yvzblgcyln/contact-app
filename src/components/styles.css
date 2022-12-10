@@ -1,0 +1,53 @@
+#container {
+  width: 400px;
+  background-color: aliceblue;
+  padding: 20px;
+}
+input {
+  width: 100%;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.list {
+  margin: 15px 0;
+}
+.list-all {
+  display: flex;
+  background-color: antiquewhite;
+  margin-top: 4px;
+}
+.list-all > button {
+  margin: 6px 10px 6px 0px;
+  background-color: rgb(205, 113, 113);
+  margin-left: 5px;
+}
+.infos {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 2px;
+  display: flex;
+  justify-content: space-between;
+}
+.info {
+  font-weight: 500;
+}
+.btn {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px 0;
+}
+.btn button {
+  padding: 5px;
+  width: 60px;
+}
+.nothing {
+  font-weight: 700;
+  color: brown;
+}
